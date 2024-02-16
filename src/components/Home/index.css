@@ -1,9 +1,9 @@
 .home-container{
-    /* background-color: white; */
-    /* background-image: url('./background.jpg'); */
-    min-height: 100vh;
+    height: 100vh;
     background-color: #ADBC9F;
     padding-top: 20px;
+    min-width: 100vw;
+    overflow-x: auto;
 }
 
 
@@ -14,8 +14,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin: 15px;
-    padding: 20px; */
 }
 .heading{
     text-align: center;
@@ -117,8 +115,22 @@ tr th::nth-child(4){
 }
 
 @media only screen and (max-width: 768px) {
+    .home-container{
+        min-height: 100vh;
+        min-width: 100vw;
+        overflow-x: auto;
+        /* overflow: auto;
+        white-space: nowrap; */
+    }
+    .heading{
+        margin-bottom: 15px;
+        margin-left: 50px;
+    }
     .table-container{
         min-width: 100px;
-        max-width: 350px;
+        max-width: 390px;
+    }
+    .table thead tr tbody tr{
+        max-width: 380px;
     }
 }

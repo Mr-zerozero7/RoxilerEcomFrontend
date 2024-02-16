@@ -47,7 +47,7 @@ const BarChartE=()=> {
     <div className='statistics-container'>
       <div className='chart-container'>
           <h1 className='bar-chart-heading'>Transaction Bar Chart for {displayMonthName()}</h1>
-          <BarChart width={600} height={300} margin-top={{top:5}} data={barChartData}>
+          <BarChart className='bar-chart-card' width={600} height={300} margin-top={{top:5}} data={barChartData}>
             <XAxis dataKey="range"/>
             <YAxis/>
             <Tooltip/>

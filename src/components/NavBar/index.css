@@ -8,6 +8,7 @@
     justify-content: space-between;
     color: white;
     background-image: linear-gradient(to right, #436850, #12372A);
+    min-width: 100vw;
 }
 
 .logo-container{
@@ -53,6 +54,7 @@
 @media only screen and (max-width: 768px) {
     .nav-container{
         display: flex;
+        min-width: 100vw;
         /* flex-direction: row;
         align-items: center; */
         /* justify-content: flex-end; */
@@ -91,7 +93,7 @@
         height: 30px;
     }
     .hamburger-options-container{
-        background-color: #ffffff;
+        background-color:  #97ad82;
         opacity: 0.6;
         display: flex;
         flex-direction: column;

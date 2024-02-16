@@ -33,11 +33,17 @@
     padding-left: 40px;
 }
 .not-sold-span{
-    padding-left: 8px;
+    padding-left: 10px;
 }
 span{
     font-weight: bold;
 }
 .stats-container{
     margin-top: 30px;
+}
+
+@media only screen and (max-width: 768px){
+    .card-container{
+        max-width: 380px;
+    }
 }

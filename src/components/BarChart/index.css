@@ -14,3 +14,15 @@
     text-align: center;
     margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 768px){
+    .statistics-container{
+        max-height: 100vh;
+    }
+    .bar-chart-card{
+        max-width: 380px;
+    }
+    .chart-container{
+        max-width: 390px;
+    }
+}
