@@ -5,6 +5,7 @@
     align-items: center;
     background-color: #ADBC9F;
     min-height: 100vh;
+    min-width: 100vw;
 }
 
 .chart-container{
@@ -17,7 +18,8 @@
 
 @media only screen and (max-width: 768px){
     .statistics-container{
-        max-height: 100vh;
+        min-height: 100vh;
+        min-width: 100vw;
     }
     .bar-chart-card{
         max-width: 380px;
